@@ -808,7 +808,8 @@
         "odm/etc/build.prop",
         "odm/etc/group",
         "odm/etc/NOTICE.xml.gz",
-        "odm/etc/passwd"
+        "odm/etc/passwd",
+        "overlay/SecureElement__auto_generated_rro_vendor"
       ]
     }
   }
