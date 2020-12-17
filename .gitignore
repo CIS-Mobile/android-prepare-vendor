@@ -56,6 +56,10 @@ sunfish/*
 !sunfish/config.json
 !sunfish/overlays-*
 
+bramble/*
+!bramble/config.json
+!bramble/overlays-*
+
 redfin/*
 !redfin/config.json
 !redfin/overlays-*
