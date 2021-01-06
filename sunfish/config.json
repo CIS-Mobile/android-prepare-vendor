@@ -46,6 +46,7 @@
       "system-other": [],
       "system_ext-bytecode": [
         "system_ext/app/QtiTelephonyService/QtiTelephonyService.apk",
+        "system_ext/app/com.qualcomm.qti.services.secureui/com.qualcomm.qti.services.secureui.apk",
         "system_ext/app/datastatusnotification/datastatusnotification.apk",
         "system_ext/app/uceShimService/uceShimService.apk",
         "system_ext/framework/com.qualcomm.qti.uceservice-V2.1-java.jar",
@@ -80,6 +81,7 @@
         "system_ext/lib/libimscamera_jni.so",
         "system_ext/lib/libimsmedia_jni.so",
         "system_ext/lib/libsecureui_svcsock_system.so",
+        "system_ext/lib/libsecureuisvc_jni.so",
         "system_ext/lib/vendor.display.config@1.0.so",
         "system_ext/lib/vendor.display.config@1.1.so",
         "system_ext/lib/vendor.display.config@1.2.so",
