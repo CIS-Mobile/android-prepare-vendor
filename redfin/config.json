@@ -1028,7 +1028,6 @@
       ],
       "product-bytecode": [
         "product/app/VZWAPNLib/VZWAPNLib.apk",
-        "product/priv-app/AmbientSensePrebuilt/AmbientSensePrebuilt.apk::PRESIGNED",
         "product/priv-app/HotwordEnrollmentOKGoogleRT5514P/HotwordEnrollmentOKGoogleRT5514P.apk::PRESIGNED",
         "product/priv-app/HotwordEnrollmentXGoogleRT5514P/HotwordEnrollmentXGoogleRT5514P.apk::PRESIGNED",
         "product/priv-app/MyVerizonServices/MyVerizonServices.apk",
@@ -1039,7 +1038,6 @@
         "product/priv-app/SprintDM/SprintDM.apk"
       ],
       "product-other": [
-        "product/etc/ambient/matcher_tah.leveldb",
         "product/etc/permissions/com.android.omadm.service.xml",
         "product/etc/permissions/com.google.omadm.trigger.xml",
         "product/etc/permissions/com.android.sdm.plugins.connmo.xml",
