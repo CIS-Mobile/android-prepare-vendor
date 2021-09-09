@@ -1017,7 +1017,7 @@
     },
     "full": {
       "overlays-dir": "",
-      "rro-overlays": "",
+      "rro-overlays": [""],
       "system-bytecode": [
       ],
       "system-other": [
