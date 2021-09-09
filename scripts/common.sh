@@ -111,7 +111,7 @@ jqIncRawArray() {
     return
   fi
 
-  jq -r ".\"$api\".full.\"$query\"[]" "$conf_file" || {
+  jq -r ".\"$api\".full.\"$query\"[]?" "$conf_file" || {
     echo "[-] json raw string array parse failed" >&2
     abort 1
   }
