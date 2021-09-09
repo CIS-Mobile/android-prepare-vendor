@@ -1021,13 +1021,27 @@
       ],
       "system-other": [
       ],
-      "system_ext-bytecode": [],
+      "system_ext-bytecode": [
+        "system_ext/framework/com.android.hotwordenrollment.common.util.jar",
+        "system_ext/framework/RadioConfigLib.jar"
+      ],
       "system_ext-other": [
-        "system_ext/etc/permissions/privapp-permissions-google-se.xml",
-        "system_ext/etc/permissions/com.verizon.llkagent.xml"
+        "system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml",
+        "system_ext/etc/permissions/com.android.omadm.radioconfig.xml",
+        "system_ext/etc/permissions/com.verizon.llkagent.xml",
+        "system_ext/etc/permissions/privapp-permissions-google-se.xml"
       ],
       "product-bytecode": [
         "product/app/VZWAPNLib/VZWAPNLib.apk",
+        "product/framework/libhwinfo.jar",
+        "product/priv-app/CarrierWifi/CarrierWifi.apk::PRESIGNED",
+        "product/priv-app/ConnMO/ConnMO.apk",
+        "product/priv-app/DCMO/DCMO.apk",
+        "product/priv-app/DiagMon/DiagMon.apk",
+        "product/priv-app/DMService/DMService.apk",
+        "product/priv-app/EuiccGoogle/EuiccGoogle.apk::PRESIGNED",
+        "product/priv-app/EuiccSupportPixel/EuiccSupportPixel.apk::PRESIGNED",
+        "product/priv-app/HardwareInfo/HardwareInfo.apk",
         "product/priv-app/HotwordEnrollmentOKGoogleRT5514P/HotwordEnrollmentOKGoogleRT5514P.apk::PRESIGNED",
         "product/priv-app/HotwordEnrollmentXGoogleRT5514P/HotwordEnrollmentXGoogleRT5514P.apk::PRESIGNED",
         "product/priv-app/MyVerizonServices/MyVerizonServices.apk",
@@ -1035,14 +1049,20 @@
         "product/priv-app/obdm_stub/obdm_stub.apk::PRESIGNED",
         "product/priv-app/OemDmTrigger/OemDmTrigger.apk",
         "product/priv-app/SprintHM/SprintHM.apk",
-        "product/priv-app/SprintDM/SprintDM.apk"
+        "product/priv-app/SprintDM/SprintDM.apk",
+        "product/priv-app/USCCDM/USCCDM.apk",
+        "product/priv-app/WfcActivation/WfcActivation.apk::PRESIGNED"
       ],
       "product-other": [
         "product/etc/permissions/com.android.omadm.service.xml",
-        "product/etc/permissions/com.google.omadm.trigger.xml",
+        "product/etc/permissions/com.android.sdm.plugins.dcmo.xml",
+        "product/etc/permissions/com.android.sdm.plugins.diagmon.xml",
         "product/etc/permissions/com.android.sdm.plugins.connmo.xml",
         "product/etc/permissions/com.android.sdm.plugins.sprintdm.xml",
+        "product/etc/permissions/com.android.sdm.plugins.usccdm.xml",
         "product/etc/permissions/com.customermobile.preload.vzw.xml",
+        "product/etc/permissions/com.google.android.hardwareinfo.xml",
+        "product/etc/permissions/com.google.omadm.trigger.xml",
         "product/etc/permissions/com.verizon.apn.xml",
         "product/etc/permissions/com.verizon.services.xml",
         "product/etc/permissions/features-verizon.xml",
@@ -1059,7 +1079,7 @@
         "product/etc/sysconfig/pixel_experience_2020.xml",
         "product/etc/sysconfig/pixel_experience_2020_midyear.xml",
         "product/etc/sysconfig/whitelist_com.android.omadm.service.xml",
-        "product/etc/permissions/com.google.android.hardwareinfo.xml"
+        "product/priv-app/EuiccSupportPixel/esim-full-v1.img"
       ],
       "forced-modules": [
       ],
@@ -1071,16 +1091,9 @@
         "PRODUCT_PROPERTY_OVERRIDES += \\",
         "    ro.hardware.egl=adreno \\",
         "    ro.hardware.vulkan=adreno \\",
-        "    ro.com.google.clientidbase=android-google \\",
-        "    ro.error.receiver.system.apps=com.google.android.gms \\",
-        "    ro.atrace.core.services=com.google.android.gms,com.google.android.gms.ui,com.google.android.gms.persistent \\",
-        "    ro.opa.eligible_device=true \\",
         "    ro.storage_manager.enabled=true \\",
-        "    ro.boot.vendor.overlay.theme=com.google.android.theme.pixel \\",
         "    drm.service.enabled=true \\",
-        "    media.mediadrmservice.enable=true \\",
-        "    ro.setupwizard.rotation_locked=true \\",
-        "    setupwizard.enable_assist_gesture_training=true"
+        "    media.mediadrmservice.enable=true"
       ],
       "vendor-skip-files": [
         "etc/selinux/plat_sepolicy_vers.txt",
@@ -1089,4 +1102,4 @@
       ]
     }
   }
-}  
+}
